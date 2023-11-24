@@ -1,0 +1,31 @@
+Benchmark 1: node metrics.mjs summary1 1e6
+  Time (mean ± σ):      1.270 s ±  0.030 s    [User: 1.220 s, System: 0.023 s]
+  Range (min … max):    1.204 s …  1.299 s    10 runs
+ 
+Benchmark 2: node metrics.mjs summary2 1e6
+  Time (mean ± σ):      1.315 s ±  0.038 s    [User: 1.243 s, System: 0.041 s]
+  Range (min … max):    1.261 s …  1.374 s    10 runs
+ 
+Benchmark 3: node metrics.mjs summary3 1e6
+  Time (mean ± σ):      1.340 s ±  0.070 s    [User: 1.280 s, System: 0.027 s]
+  Range (min … max):    1.246 s …  1.461 s    10 runs
+ 
+Benchmark 4: node metrics.mjs histogram1 1e6
+  Time (mean ± σ):     574.1 ms ±  30.3 ms    [User: 437.0 ms, System: 19.7 ms]
+  Range (min … max):   522.0 ms … 616.8 ms    10 runs
+ 
+Benchmark 5: node metrics.mjs histogram2 1e6
+  Time (mean ± σ):     591.4 ms ±  23.1 ms    [User: 446.7 ms, System: 24.4 ms]
+  Range (min … max):   543.7 ms … 626.4 ms    10 runs
+ 
+Benchmark 6: node metrics.mjs histogram3 1e6
+  Time (mean ± σ):     601.4 ms ±  26.9 ms    [User: 459.6 ms, System: 19.3 ms]
+  Range (min … max):   556.3 ms … 641.8 ms    10 runs
+ 
+Summary
+  'node metrics.mjs histogram1 1e6' ran
+    1.03 ± 0.07 times faster than 'node metrics.mjs histogram2 1e6'
+    1.05 ± 0.07 times faster than 'node metrics.mjs histogram3 1e6'
+    2.21 ± 0.13 times faster than 'node metrics.mjs summary1 1e6'
+    2.29 ± 0.14 times faster than 'node metrics.mjs summary2 1e6'
+    2.33 ± 0.17 times faster than 'node metrics.mjs summary3 1e6'
