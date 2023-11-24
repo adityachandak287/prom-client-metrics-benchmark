@@ -1,4 +1,4 @@
-# Prom Client benchmarks
+# Prom Client Benchmarks
 
 ## Requirements
 
